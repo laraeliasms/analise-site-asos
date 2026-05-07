@@ -1,39 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análise de Acessibilidade</title>
+    <title>Análise de Acessibilidade Web</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header>
-        <h1>Análise de HTML Semântico</h1>
+        <h1>Análise de Estrutura HTML</h1>
+        <p>Correção de código não semântico para HTML5</p>
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="#problemas">Problemas</a></li>
+            <li><a href="#correcoes">Correções</a></li>
+            <li><a href="#resultado">Resultado</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section>
+
+        <section id="problemas">
             <h2>Problemas encontrados</h2>
-            <ul>
-                <li>Uso de HTML antigo</li>
-                <li>Ausência de tags semânticas</li>
-                <li>Imagem sem descrição acessível</li>
-                <li>Código desorganizado</li>
-            </ul>
+            <article>
+                <p>O código original apresentava:</p>
+                <ul>
+                    <li>Uso de HTML 4.01 obsoleto</li>
+                    <li>Ausência de tags semânticas</li>
+                    <li>Excesso de estilos desnecessários</li>
+                    <li>Imagem sem descrição acessível</li>
+                    <li>Estrutura sem hierarquia</li>
+                </ul>
+            </article>
         </section>
 
-        <section>
+        <section id="correcoes">
             <h2>Correções aplicadas</h2>
-            <p>
-                O código foi reestruturado utilizando HTML5 semântico
-                para melhorar acessibilidade e organização.
-            </p>
+            <article>
+                <p>
+                    O código foi reestruturado com HTML5 semântico,
+                    utilizando elementos apropriados para melhorar
+                    acessibilidade, legibilidade e organização.
+                </p>
+            </article>
         </section>
+
+        <section id="resultado">
+            <h2>Resultado visual</h2>
+
+            <figure>
+                <img src="rastreamento.png"
+                     alt="Representação visual do elemento de monitoramento">
+                <figcaption>
+                    Elemento convertido para estrutura acessível.
+                </figcaption>
+            </figure>
+        </section>
+
     </main>
 
+    <aside>
+        <h3>Observação técnica</h3>
+        <p>
+            Foram removidos códigos automáticos gerados por extensões
+            e scripts de rastreamento.
+        </p>
+    </aside>
+
     <footer>
-        <p>Disciplina Desenvolvimento Web - 2026</p>
+        <p>Disciplina: Desenvolvimento Web | 2026</p>
     </footer>
 
 </body>
